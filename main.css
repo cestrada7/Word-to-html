@@ -44,7 +44,7 @@ h1{
   font-weight: 500;
 }
 h3{
-  font-weight: 500;
+  font-weight: 300;
 }
 th{
   font-weight: 400;
@@ -66,4 +66,7 @@ table{
 
 main{
   padding-left: 2%;
+}
+.table-skills{
+  border-spacing: 20px;
 }
