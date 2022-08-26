@@ -70,3 +70,12 @@ main{
 .table-skills{
   border-spacing: 20px;
 }
+.footer{
+  height: 20vh;
+  width: 73.3%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 60px;
+
+}
