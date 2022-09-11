@@ -25,9 +25,9 @@ body {
   background-color: lightyellow;
   background-image: url(/Images/garfieldBackground.jpg);
   background-attachment: fixed;
-  background-position: 100% 40%;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: contain;
   margin-top: 10px;
 }
 	
@@ -90,9 +90,34 @@ main {
 /*--------------------------BODY--------------------------*/
 @media screen and (max-width:600px){
 	body{
-		background-size: cover;
-		color: black;
+		color: rgb(200, 200, 200);
 		background-image: linear-gradient(to right bottom, #ddb4a7e9, #74bccb8f), url(/Images/garfieldBackground.jpg);
+		
+		
 	}
+	header{
+		background-color: rgba(0, 0, 0, .7); 
+		text-align: center;
+		
+	}
+	header table{
+		width: 600px;
+		text-align: center;
+	}
+	header td{
 
-}
+	}
+	header tr td{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	header td :nth-child(1){
+		margin-left: 5%;
+	}
+	header tr td img{
+		margin-left: 25px;
+	}
+	}
+	
+	
