@@ -104,9 +104,6 @@ main {
 		width: 600px;
 		text-align: center;
 	}
-	header td{
-
-	}
 	header tr td{
 		display: flex;
 		justify-content: center;
